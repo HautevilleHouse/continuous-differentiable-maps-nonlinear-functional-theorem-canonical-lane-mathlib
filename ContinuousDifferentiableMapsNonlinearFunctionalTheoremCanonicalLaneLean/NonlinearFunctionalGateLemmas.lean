@@ -1,0 +1,13 @@
+import ContinuousDifferentiableMapsNonlinearFunctionalTheoremCanonicalLaneLean.ContinuousDifferentiableMapsBridge
+
+namespace HautevilleHouse
+namespace ContinuousDifferentiableMapsNonlinearFunctionalTheoremCanonicalLaneLean
+
+def gateClosed (A : AdmissibleClassContinuousDifferentiableMaps) : Prop :=
+  A.endpointSatisfied ∨ A.remainderRecorded
+
+theorem gate_from_admissible_class (A : AdmissibleClassContinuousDifferentiableMaps) : gateClosed A :=
+  A.gateWitness
+
+end ContinuousDifferentiableMapsNonlinearFunctionalTheoremCanonicalLaneLean
+end HautevilleHouse

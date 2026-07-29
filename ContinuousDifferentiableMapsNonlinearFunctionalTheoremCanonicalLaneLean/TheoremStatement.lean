@@ -1,0 +1,18 @@
+import HautevilleHouse.ContinuousDifferentiableMapsNonlinearFunctionalTheoremCanonicalLaneLean.AdmissibleClass
+
+namespace HautevilleHouse
+namespace ContinuousDifferentiableMapsNonlinearFunctionalTheoremCanonicalLaneLean
+
+structure ContinuousDifferentiableMapsNonlinearFunctionalAdmittedObject where
+  space : Type
+  topology : TopologicalSpace space
+  differentiableStructure : Prop
+  continuousMapSpace : Prop
+  nonlinearFunctionalExists : Prop
+  conclusion : nonlinearFunctionalExists
+
+def ContinuousDifferentiableMapsNonlinearFunctionalWitnessClosed (O : ContinuousDifferentiableMapsNonlinearFunctionalAdmittedObject) : Prop :=
+  O.nonlinearFunctionalExists
+
+end ContinuousDifferentiableMapsNonlinearFunctionalTheoremCanonicalLaneLean
+end HautevilleHouse
